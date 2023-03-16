@@ -1,0 +1,141 @@
+body{
+  text-align: center;
+  margin: 50px auto 0 auto;
+  background-color: 9ED2C6;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
+h1{
+  text-align: center;
+  color: 5800FF   
+}
+h3{
+  text-align: center;
+  color: 5800FF
+}
+table{
+  margin-left: 35rem;
+}
+.bottom-container{
+  padding: 10px 0 20px;
+}
+.contact-picture{
+  width: 23.5%;
+  position: absolute;
+  left: 1000px;
+  right: 200px;
+}
+.contact-picture-2{
+  width: 20%;
+  position: absolute;
+  left: 200px;
+  right: 1000px;
+}
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+p{
+  line-height: 2;
+}
+.bottom-container{
+  font-size: 20;
+}
+a{
+    margin: 10px 20px;
+}
+.laptop-img{
+  width: 20%;
+  position: absolute;
+  left: 100px;
+}
+.news-img{
+  width: 20%;
+  position: absolute;
+  right: 100px;
+}
+.watching-img{
+  width: 20%;
+  position: absolute;
+  right: 700px;
+  top: 400px;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.about-me-row{
+  width: 50%;
+  margin: 10px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+  text-indent: 3%;
+}
+.adult-img{
+  width: 25%;
+  top: 50px;
+  margin: auto;
+}
+#specialdesign{
+    background: #BAB095;
+    text-emphasis-color: inherit;
+    text-align: center;
+    margin: auto;
+    font-size: 45;
+    font-style: Times New Roman;
+}
+.library-img{
+  margin-top: 50px;
+  margin: auto;
+}
+.reference-row{
+  width: 50%;
+  margin: 10px auto 20px auto;
+  text-align: left;
+  line-height: 2;
+  text-indent: 3%;
+}
+.submit-btn{
+  margin-top: 15px;
+}
+.tesla-row{
+  width: 50%;
+  margin: 10px auto 20px auto;
+  text-align: left;
+  line-height: 2;
+  text-indent: 3%;
+}
+.tesla-img{
+  width: 25%;
+  float: right;    
+  margin-left: 30px;
+}
+.hezârfen-row{
+  width: 50%;
+  margin: 10px auto 20px auto;
+  text-align: left;
+  line-height: 2;
+  text-indent: 3%;
+}
+.hezârfen-img{
+  width: 25%;
+  float: left;    
+  margin-right: 30px;
+  margin-left:80px;
+  line-height: 2;
+  text-indent: 3%;
+}
+.nav-pane{
+  align-self: center;
+}
+.push{
+  margin-left: auto;
+}
