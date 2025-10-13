@@ -1,31 +1,71 @@
 <html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Contact Me</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <img class="contact-picture" src="images/mail.png" alt="Contact Picture">
-    <img class="contact-picture-2" src="images/speech.png" alt="Contact Picture">
-    <h1>My Contact Details</h1>
-    <p>taha.ahmetok@gmail.com</p>
-    <form action="mailto:taha.ahmetok@gmail.com" method="post" enctype="text/plain">
-        <label>Your Name:</label>
-        <input type="text" name="Your Name" value=""><br>
-        <label>Your Email:</label>
-        <input type="email" name="Your Email" value=""><br>
-        <label>Your Message:</label><br>
-        <textarea name="yourMessage" rows="10" cols="30" ></textarea><br>
-        <input class="submit-btn" type="submit" name="">
-    </form>
-    <div class="bottom-container">
-        <a href="index.html">Home Page</a>
-        <a href="about-me.html">About Me</a>
-        <a href="hobbies.html">My Hobbies</a>
-        <a href="my-role-models.html">My Role Models</a>
-        <a href="references.html">References</a>
+    <nav class="navbar navbar-expand-lg fixed-top glass-navbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-white" href="index.html">Taha Ahmet Ok</a>
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link text-white" href="index.html">Home Page</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="about-me.html">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="hobbies.html">My Hobbies</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="my-role-models.html">My Role Models</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link text-white" href="references.html">References</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="contact-me.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container py-5 mt-5">
+        <div class="text-center mb-5">
+            <img class="img-fluid d-inline-block mx-2 mb-4" src="images/mail.png" alt="Contact Picture"
+                style="max-width: 100px;">
+            <img class="img-fluid d-inline-block mx-2 mb-4" src="images/speech.png" alt="Contact Picture"
+                style="max-width: 100px;">
+            <h1 class="display-5 fw-bold mb-3">My Contact Details</h1>
+            <p class="lead mb-4">taha.ahmetok@gmail.com</p>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <form action="mailto:taha.ahmetok@gmail.com?subject=Website Ulaşım Formu" method="get">
+                    <div class="mb-3">
+                        <label for="yourName" class="form-label">Your Name:</label>
+                        <input type="text" class="form-control" id="yourName" name="Ad_Soyad" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="yourEmail" class="form-label">Your Email:</label>
+                        <input type="email" class="form-control" id="yourEmail" name="Gonderen_Mail" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="yourMessage" class="form-label">Your Message:</label>
+                        <textarea class="form-control" id="yourMessage" name="body" rows="5" required></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-secondary btn-lg">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
 </body>
+
 </html>

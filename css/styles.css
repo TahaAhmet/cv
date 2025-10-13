@@ -1,141 +1,158 @@
-body{
+body {
   text-align: center;
   margin: 50px auto 0 auto;
-  background-color: 9ED2C6;
+  font-family: Arial, sans-serif;
+  padding: 0 1rem;
 }
-hr{
-  border-style: none;
-  border-top-style: dotted;
-  border-color: grey;
-  border-width: 5px;
-  width: 5%;
-}
-h1{
+
+h1, h3 {
   text-align: center;
-  color: 5800FF   
+  color: #5800FF;
 }
-h3{
-  text-align: center;
-  color: 5800FF
+
+table {
+  margin: 2rem auto;
+  width: 90%;
+  max-width: 800px;
+  border-collapse: collapse;
 }
-table{
-  margin-left: 35rem;
-}
-.bottom-container{
+
+.bottom-container {
   padding: 10px 0 20px;
+  font-size: 20px;
 }
-.contact-picture{
-  width: 23.5%;
-  position: absolute;
-  left: 1000px;
-  right: 200px;
+
+a {
+  margin: 10px 20px;
 }
-.contact-picture-2{
-  width: 20%;
-  position: absolute;
-  left: 200px;
-  right: 1000px;
+
+.glass-navbar {
+  background: rgba(20, 20, 35, 0.7);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 10px 0;
 }
-.contact-message{
-  width: 40%;
-  margin: 40px auto 60px;
+
+.navbar-brand {
+  color: #fff !important;
+  font-weight: 600;
+  letter-spacing: 0.5px;
 }
-p{
-  line-height: 2;
+
+.nav-link {
+  color: #e4e4e4 !important;
+  font-weight: 500;
+  transition: 0.3s;
 }
-.bottom-container{
-  font-size: 20;
+
+.nav-link:hover {
+  color: #b88af0 !important;
 }
-a{
-    margin: 10px 20px;
+
+/* Görseller */
+img {
+  max-width: 100%;
+  height: auto;
 }
-.laptop-img{
-  width: 20%;
-  position: absolute;
-  left: 100px;
-}
-.news-img{
-  width: 20%;
-  position: absolute;
-  right: 100px;
-}
-.watching-img{
-  width: 20%;
-  position: absolute;
-  right: 700px;
-  top: 400px;
-}
-p {
+
+.contact-picture,
+.contact-picture-2,
+.laptop-img,
+.news-img,
+.watching-img,
+.adult-img,
+.tesla-img,
+.hezârfen-img {
+  position: static;
+  width: 100%;
+  max-width: 300px;
+  margin: 1rem auto;
   display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
 }
-.about-me-row{
-  width: 50%;
-  margin: 10px auto 100px auto;
+
+.contact-message,
+.about-me-row,
+.reference-row,
+.tesla-row,
+.hezârfen-row {
+  width: 90%;
+  max-width: 700px;
+  margin: 1rem auto;
   text-align: left;
-  line-height: 2;
+  line-height: 1.8;
   text-indent: 3%;
 }
-.adult-img{
-  width: 25%;
-  top: 50px;
+
+#specialdesign {
+  background: #BAB095;
+  text-align: center;
   margin: auto;
+  font-size: 2rem;
+  font-family: "Times New Roman", serif;
+  padding: 1rem;
 }
-#specialdesign{
-    background: #BAB095;
-    text-emphasis-color: inherit;
-    text-align: center;
-    margin: auto;
-    font-size: 45;
-    font-style: Times New Roman;
-}
-.library-img{
+
+.library-img {
   margin-top: 50px;
   margin: auto;
 }
-.reference-row{
-  width: 50%;
-  margin: 10px auto 20px auto;
-  text-align: left;
-  line-height: 2;
-  text-indent: 3%;
-}
-.submit-btn{
+
+.submit-btn {
   margin-top: 15px;
 }
-.tesla-row{
-  width: 50%;
-  margin: 10px auto 20px auto;
-  text-align: left;
-  line-height: 2;
-  text-indent: 3%;
-}
-.tesla-img{
-  width: 25%;
-  float: right;    
-  margin-left: 30px;
-}
-.hezârfen-row{
-  width: 50%;
-  margin: 10px auto 20px auto;
-  text-align: left;
-  line-height: 2;
-  text-indent: 3%;
-}
-.hezârfen-img{
-  width: 25%;
-  float: left;    
-  margin-right: 30px;
-  margin-left:80px;
-  line-height: 2;
-  text-indent: 3%;
-}
-.nav-pane{
+
+.nav-pane {
   align-self: center;
 }
-.push{
+
+.push {
   margin-left: auto;
+}
+
+/* Responsive kısımlar */
+@media (max-width: 992px) {
+  body {
+    margin: 20px auto;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .about-me-row, .reference-row, .tesla-row, .hezârfen-row {
+    width: 90%;
+    text-align: center;
+  }
+
+  .tesla-img, .hezârfen-img {
+    float: none;
+    margin: 1rem auto;
+    display: block;
+  }
+
+  table {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  .contact-message {
+    width: 100%;
+  }
+
+  #specialdesign {
+    font-size: 1.5rem;
+  }
+
+  .bottom-container {
+    font-size: 16px;
+  }
 }

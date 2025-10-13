@@ -1,30 +1,78 @@
 <html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>My Role Models</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <div class="tesla-row">
-        <h1>My Role Models</h1>
-        <p>Hi, I wanted to make my comments for my role models. Therefore, this page contain my opinions.</p>
-        <h1>Nikola tesla</h1>
-        <img class="tesla-img" src="images/tesla.png" alt="Tesla Picture">
-        <p>Nikola Tesla is one of the my favourite scientist because he has brain which beyond the times. He has lots of inventions. In my opinion Nikola Tesla's best invention was alternative current. If people didn't use alternative current, a lot of wires would be used everywhere. In additionaly, alternative current is cheaper than direct current. </p>
-    </div>
-    <div class="hezârfen-row">
-        <h1>Hezârfen Ahmed Çelebi</h1>
-        <img class="hezârfen-img" src="images/galata.png" alt="Hezârfen Ahmed Çelebi Picture">
-        <p>First of all, when I heard his name, I imagine Galata Tower due to the succesfull flight of him. Also, he faced a lot of challenging situation but he did not think about give up his' flight adventure. If I feel stuck for developing, I am thinking Hezârfen Ahmed Çelebi's flight adventure. From my point of view, it is high motivation source for me.</p>
-    </div>
-    <div class="bottom-container">
-        <a href="index.html">Home Page</a>
-        <a href="about-me.html">About Me</a>
-        <a href="hobbies.html">My Hobbies</a>
-        <a href="contact-me.html">Contact Me</a>
-        <a href="references.html">References</a>
+    <nav class="navbar navbar-expand-lg fixed-top glass-navbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-white" href="index.html">Taha Ahmet Ok</a>
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link text-white" href="index.html">Home Page</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="about-me.html">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="hobbies.html">My Hobbies</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="my-role-models.html">My Role Models</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link text-white" href="references.html">References</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="contact-me.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container py-5 mt-5">
+        <div class="text-center mb-5">
+            <h1 class="display-4 fw-bold mb-3">My Role Models</h1>
+            <p class="lead">Hi, I wanted to make my comments for my role models. Therefore, this page contain my
+                opinions.</p>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-lg-6">
+                <div class="card shadow-sm h-100">
+                    <img src="images/tesla.png" class="card-img-top img-fluid mx-auto mt-4" alt="Tesla Picture"
+                        style="max-width: 250px;">
+                    <div class="card-body text-center d-flex flex-column">
+                        <h2 class="card-title fw-bold mb-3">Nikola Tesla</h2>
+                        <p class="card-text flex-grow-1">Nikola Tesla is one of the my favourite scientist because he has brain
+                            which beyond the times. He has lots of inventions. In my opinion Nikola Tesla's best
+                            invention was alternative current. If people didn't use alternative current, a lot of wires
+                            would be used everywhere. In additionaly, alternative current is cheaper than direct
+                            current. </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="card shadow-sm h-100">
+                    <img src="images/galata.png" class="card-img-top img-fluid mx-auto mb-4 mt-4"
+                        alt="Hezârfen Ahmed Çelebi Picture" style="max-width: 250px;">
+                    <div class="card-body text-center d-flex flex-column">
+                        <h2 class="card-title fw-bold mb-3">Hezârfen Ahmed Çelebi</h2>
+                        <p class="card-text flex-grow-1">First of all, when I heard his name, I imagine Galata Tower due to the
+                            succesfull flight of him. Also, he faced a lot of challenging situation but he did not think
+                            about give up his' flight adventure. If I feel stuck for developing, I am thinking Hezârfen
+                            Ahmed Çelebi's flight adventure. From my point of view, it is high motivation source for me.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
+
 </html>

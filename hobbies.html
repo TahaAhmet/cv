@@ -1,26 +1,73 @@
 <html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>My Hobbies</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <h3>My Hobbies</h3>
-    <img class="laptop-img" src="images/laptop.png" alt="Laptop Picture">
-    <img class="news-img" src="images/news.png" alt="News Picture">
-    <img class="watching-img" src="images/talk-video.png" alt="Watching Videos Picture">
-    <p>Playing computer games</p>
-    <p>Following technology news</p>
-    <p>Meeting with my friends</p>
-    <p>Watching developers' talk videos</p>
-    <div class="bottom-container">
-        <a href="index.html">Home Page</a>
-        <a href="about-me.html">About Me</a>
-        <a href="contact-me.html">Contact Me</a>
-        <a href="my-role-models.html">My Role Models</a>
-        <a href="references.html">References</a>
+    <nav class="navbar navbar-expand-lg fixed-top glass-navbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-white" href="index.html">Taha Ahmet Ok</a>
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link text-white" href="index.html">Home Page</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="about-me.html">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="hobbies.html">My Hobbies</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="my-role-models.html">My Role Models</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link text-white" href="references.html">References</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="contact-me.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container py-5 mt-5 text-center">
+        <h3 class="display-4 fw-bold mb-5">My Hobbies</h3>
+
+        <div class="row g-4 justify-content-center">
+            <div class="col-md-4 col-sm-6">
+                <div class="p-3 border rounded shadow-sm h-100 d-flex flex-column justify-content-between">
+                    <img class="img-fluid mb-3 mx-auto d-block" src="images/laptop.png" alt="Laptop Picture"
+                        style="max-width: 150px;">
+                    <p class="fw-semibold fs-5 mb-0">Playing computer games</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="p-3 border rounded shadow-sm h-100 d-flex flex-column justify-content-between">
+                    <img class="img-fluid mb-3 mx-auto d-block" src="images/news.png" alt="News Picture"
+                        style="max-width: 150px;">
+                    <p class="fw-semibold fs-5 mb-0">Following technology news</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="p-3 border rounded shadow-sm h-100 d-flex flex-column justify-content-between">
+                    <img class="img-fluid mb-3 mx-auto d-block" src="images/talk-video.png"
+                        alt="Watching Videos Picture" style="max-width: 150px;">
+                    <p class="fw-semibold fs-5 mb-0">Watching developers' talk videos</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="p-3 border rounded shadow-sm h-100 d-flex flex-column justify-content-between">
+                    <img class="img-fluid mb-3 mx-auto d-block" src="images/speech.png" alt="Meeting Friends Picture"
+                        style="max-width: 150px;">
+                    <p class="fw-semibold fs-5 mb-0">Meeting with my friends</p>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
+
 </html>
